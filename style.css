@@ -4,7 +4,7 @@
 }
 #header{
     height: 100vh;
-    background-image: url("./background.png");
+    background-image: url("pexels-lukas-349610.jpg");
     background-position: center;
     background-size: cover;
     
@@ -23,6 +23,7 @@
     max-width: 350px;
     margin-top: 140px;
 }
+
 h1{
     font-size: 34px;
 }
@@ -34,15 +35,18 @@ h1{
     margin: 15px 0;
 }
 .common-btn{
-    padding: 18px 40px;
+    
+    padding: 20px 18px;
     background: transparent;
     outline: none;
     border: 2px solid #f67c92;
     font-weight: bold;
     cursor: pointer;
+    
 }
 .common-btn p{
  font-size: 15px;
+ 
  line-height: 18px;
  color: #777;
 
@@ -121,18 +125,20 @@ nav ul li a{
 .about-text{
     max-width: 500px;
     margin-right: 100px;
+    font-size: 20px;
     display: inline-block;
 }
-.about-text h2{
+.about-text h3{
     margin: 50px 0 10px;
-    font-size: 28px;
-    font-style: italic;
+    font-size: 20px;
+    
 }
 .about-text h3{
-    font-size: 20px;
-    font-style: italic;
-    color: #797979;
+  
+   
+    
 }
+/* features */
 #features{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -151,7 +157,7 @@ nav ul li a{
     text-align: center;
 }
 .feature-col img{
-    width: 100px;
+    width: 80px;
 }
 .feature-col h4{
     margin-bottom: 15px;
@@ -162,6 +168,7 @@ nav ul li a{
     padding: 20px;
     width: 180px;
     margin: 0 auto;
+  
 }
 /* courses */
 #courses{
@@ -231,11 +238,13 @@ form input{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+   
 }
-.common-btn{
+#contact .common-btn{
     flex-basis: 48%;
     padding: 18px 0;
-   
+    
+    
 
 }
 /* Footer */
